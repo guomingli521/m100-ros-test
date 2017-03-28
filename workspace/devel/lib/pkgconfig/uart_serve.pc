@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/m100-ros-test/workspace/devel
+
+Name: uart_serve
+Description: Description of uart_serve
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/m100-ros-test/workspace/devel/lib 
+Requires: message_runtime

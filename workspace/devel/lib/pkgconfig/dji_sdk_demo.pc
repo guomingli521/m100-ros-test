@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/m100-ros-test/workspace/devel
+
+Name: dji_sdk_demo
+Description: Description of dji_sdk_demo
+Version: 0.1.9
+Cflags: -I/home/ubuntu/m100-ros-test/workspace/devel/include
+Libs: -L/home/ubuntu/m100-ros-test/workspace/devel/lib 
+Requires: message_runtime

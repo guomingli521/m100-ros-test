@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/m100-ros-test/workspace/devel
+
+Name: vedio
+Description: Description of vedio
+Version: 0.0.0
+Cflags: -I/home/ubuntu/m100-ros-test/workspace/devel/include
+Libs: -L/home/ubuntu/m100-ros-test/workspace/devel/lib 
+Requires: message_runtime

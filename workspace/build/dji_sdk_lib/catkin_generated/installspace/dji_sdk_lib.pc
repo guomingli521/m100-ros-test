@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/m100-ros-test/workspace/install
+
+Name: dji_sdk_lib
+Description: Description of dji_sdk_lib
+Version: 0.1.9
+Cflags: -I/home/ubuntu/m100-ros-test/workspace/install/include
+Libs: -L/home/ubuntu/m100-ros-test/workspace/install/lib -ldji_sdk_lib
+Requires: 

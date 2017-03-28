@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/m100-ros-test/workspace/install/setup.sh

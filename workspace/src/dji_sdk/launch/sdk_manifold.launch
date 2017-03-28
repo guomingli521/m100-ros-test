@@ -1,0 +1,23 @@
+<launch>
+	<node pkg="dji_sdk" type="dji_sdk_node" name="dji_sdk" output="screen">
+
+		<!-- node parameters -->
+		<!-- For Drone Version enter M100 or A3_31 or A3_32 depending on your Flight Controller/Aircraft -->
+                <param name="drone_version" type="string" value="M100"/>
+		<param name="serial_name" type="string" value="/dev/ttyTHS1"/>
+		<param name="baud_rate" type="int" value="115200"/>
+		<param name="app_id" type="int" value="1027130"/>
+		<param name="app_version" type="int" value="1"/>
+		<param name="app_bundle_id" type="string" value="Welcome to use dji-sdk"/>
+		<param name="enc_key" type="string" value="374e416fb6707fc7a6f45ae5952852f7bd7e26603de54a40cd71ca6f165cada8"/>
+		<param name="groundstation_enable" type="int" value="1"/>
+	</node>	
+        <node pkg="dji_sdk_demo" type="dji_sdk_client" name="main" output="screen"></node>
+        <node pkg="uart_serve" type="uart_serve_node" name="uart_serve" output="screen"></node>
+     	<node pkg="vedio" type="vedio_node" name="vedio_blue" output="screen"></node>
+</launch>
+
+
+
+
+
