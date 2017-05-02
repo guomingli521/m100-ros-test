@@ -7,6 +7,7 @@ project(vedio)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
+  std_msgs
   message_generation
   
 )
@@ -46,8 +47,11 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
  add_message_files(
-  FILES
-  xy.msg
+ # FILES
+  msg_xy.msg
+  msg_led.msg
+  msg_bomb.msg
+
  )
 generate_messages()
 
@@ -144,12 +148,13 @@ set(INC_DIR /opt/pylon5/include)
 set(LINK_DIR /opt/pylon5/lib)
 include_directories(${INC_DIR})
 LINK_directories(${LINK_DIR})
-LINK_LIBRARIES("/opt/pylon5/lib/libbxapi.so" "/opt/pylon5/lib/libgxapi.so" "/opt/pylon5/lib/libpylonbase.so" "/opt/pylon5/lib/libpylonc.so" "/opt/pylon5/lib/libpylon_TL_bcon.so" "/opt/pylon5/lib/libpylon_TL_camemu.so" "/opt/pylon5/lib/libpylon_TL_gige.so" "/opt/pylon5/lib/libpylon_TL_gtc.so" "/opt/pylon5/lib/libpylonutility.so" "/opt/pylon5/lib/libuxapi.so")
+#LINK_LIBRARIES("/opt/pylon5/lib/libbxapi.so" "/opt/pylon5/lib/libgxapi.so" "/opt/pylon5/lib/libpylonbase.so" "/opt/pylon5/lib/libpylonc.so" "/opt/pylon5/lib/libpylon_TL_bcon.so" "/opt/pylon5/lib/libpylon_TL_camemu.so" "/opt/pylon5/lib/libpylon_TL_gige.so" "/opt/pylon5/lib/libpylon_TL_gtc.so" "/opt/pylon5/lib/libpylonutility.so" "/opt/pylon5/lib/libuxapi.so")
+LINK_LIBRARIES( "/opt/pylon5/lib/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libLog_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libbxapi.so" "/opt/pylon5/lib/libbxapi-5.0.5.so" "/opt/pylon5/lib/libgxapi.so" "/opt/pylon5/lib/libgxapi-5.0.5.so" "/opt/pylon5/lib/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so" "/opt/pylon5/lib/libpylon_TL_bcon.so" "/opt/pylon5/lib/libpylon_TL_bcon-5.0.5.so" "/opt/pylon5/lib/libpylon_TL_camemu.so" "/opt/pylon5/lib/libpylon_TL_camemu-5.0.5.so" "/opt/pylon5/lib/libpylon_TL_gige.so" "/opt/pylon5/lib/libpylon_TL_gige-5.0.5.so" "/opt/pylon5/lib/libpylon_TL_gtc.so" "/opt/pylon5/lib/libpylon_TL_gtc-5.0.5.so" "/opt/pylon5/lib/" "/opt/pylon5/lib/libpylon_TL_usb.so" "/opt/pylon5/lib/libpylon_TL_usb-5.0.5.so" "/opt/pylon5/lib/libpylonbase.so" "/opt/pylon5/lib/libpylonbase-5.0.5.so" "/opt/pylon5/lib/libpylonc.so" "/opt/pylon5/lib/libpylonc-5.0.5.so" "/opt/pylon5/lib/libpylonutility.so" "/opt/pylon5/lib/libpylonutility-5.0.5.so" "/opt/pylon5/lib/libuxapi.so" "/opt/pylon5/lib/libuxapi-5.0.5.so" "/opt/pylon5/lib/pylon-libusb-1.0.so")
 FIND_PACKAGE( OpenCV REQUIRED )
 
 
 # Declare the target (an executable)
-add_executable(vedio_node src/blue.cpp)
+add_executable(vedio_node src/main.cpp src/attack.cpp src/land.cpp)
 target_link_libraries(vedio_node  ${catkin_LIBRARIES} ${OpenCV_LIBS})
 
 

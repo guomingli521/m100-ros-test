@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg"
+messages_str = "/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg;/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg"
 services_str = ""
 pkg_name = "dji_sdk_demo"
 dependencies_str = ""

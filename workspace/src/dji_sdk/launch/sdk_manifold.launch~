@@ -13,7 +13,9 @@
 		<param name="groundstation_enable" type="int" value="1"/>
 	</node>	
         <node pkg="dji_sdk_demo" type="dji_sdk_client" name="main" output="screen"></node>
-        <node pkg="uart_serve" type="uart_serve_node" name="uart_serve" output="screen"></node>
+     	<node pkg="vedio" type="vedio_node" name="vedio_blue" output="screen"></node>
+ 	<node pkg="uart_serve" type="uart_serve_node" name="uart_serve" output="screen"></node>
+ 	
 </launch>
 
 

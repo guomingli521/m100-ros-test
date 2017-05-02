@@ -385,6 +385,9 @@ catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
+
 //Value Computed by CMake
 dji_sdk_BINARY_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/build/dji_sdk
 
@@ -396,9 +399,6 @@ dji_sdk_SOURCE_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/src/dji_sdk
 
 //Value Computed by CMake
 dji_sdk_demo_BINARY_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo
-
-//The directory containing a CMake configuration file for dji_sdk_demo.
-dji_sdk_demo_DIR:PATH=/home/ubuntu/m100-ros-test/workspace/devel/share/dji_sdk_demo/cmake
 
 //Value Computed by CMake
 dji_sdk_demo_SOURCE_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo
@@ -431,6 +431,12 @@ genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
 geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
 
 //Value Computed by CMake
+gpio_BINARY_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/build/gpio
+
+//Value Computed by CMake
+gpio_SOURCE_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/src/gpio
+
+//Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/build/gtest
 
 //Dependencies for the target
@@ -454,6 +460,12 @@ gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+
+//Value Computed by CMake
+guidance_BINARY_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/build/Guidance-SDK-ROS-master
+
+//Value Computed by CMake
+guidance_SOURCE_DIR:STATIC=/home/ubuntu/m100-ros-test/workspace/src/Guidance-SDK-ROS-master
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
@@ -490,6 +502,9 @@ rostest_DIR:PATH=/opt/ros/indigo/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
@@ -613,7 +628,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -48,23 +48,41 @@ CMAKE_BINARY_DIR = /home/ubuntu/m100-ros-test/workspace/build
 # Include the progress variables for this target.
 include vedio/CMakeFiles/vedio_generate_messages_py.dir/progress.make
 
-vedio/CMakeFiles/vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py
+vedio/CMakeFiles/vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py
+vedio/CMakeFiles/vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py
+vedio/CMakeFiles/vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py
 vedio/CMakeFiles/vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py
 
-/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG vedio/xy"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG vedio/msg_xy"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg
+
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG vedio/msg_bomb"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg
+
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG vedio/msg_led"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg
 
 /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py
+/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for vedio"
 	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg --initpy
 
 vedio_generate_messages_py: vedio/CMakeFiles/vedio_generate_messages_py
-vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py
+vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py
+vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py
+vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py
 vedio_generate_messages_py: /home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py
 vedio_generate_messages_py: vedio/CMakeFiles/vedio_generate_messages_py.dir/build.make
 .PHONY : vedio_generate_messages_py

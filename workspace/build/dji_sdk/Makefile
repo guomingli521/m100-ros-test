@@ -1595,48 +1595,6 @@ dji_sdk_node/fast:
 .PHONY : dji_sdk_node/fast
 
 # Convenience name for target.
-dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
 	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
@@ -1677,132 +1635,6 @@ nav_msgs_generate_messages_py: dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.
 nav_msgs_generate_messages_py/fast:
 	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
 
 src/dji_sdk_node.o: src/dji_sdk_node.cpp.o
 .PHONY : src/dji_sdk_node.o
@@ -2034,9 +1866,6 @@ help:
 	@echo "... dji_sdk_genpy"
 	@echo "... dji_sdk_node"
 	@echo "... edit_cache"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -2045,15 +1874,6 @@ help:
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... src/dji_sdk_node.o"
 	@echo "... src/dji_sdk_node.i"

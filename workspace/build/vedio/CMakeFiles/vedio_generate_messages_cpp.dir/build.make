@@ -48,17 +48,35 @@ CMAKE_BINARY_DIR = /home/ubuntu/m100-ros-test/workspace/build
 # Include the progress variables for this target.
 include vedio/CMakeFiles/vedio_generate_messages_cpp.dir/progress.make
 
-vedio/CMakeFiles/vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h
+vedio/CMakeFiles/vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h
+vedio/CMakeFiles/vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h
+vedio/CMakeFiles/vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_led.h
 
-/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg
-/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vedio/xy.msg"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/include/vedio -e /opt/ros/indigo/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vedio/msg_xy.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/include/vedio -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vedio/msg_bomb.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/include/vedio -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_led.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_led.h: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg
+/home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_led.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vedio/msg_led.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/include/vedio -e /opt/ros/indigo/share/gencpp/cmake/..
 
 vedio_generate_messages_cpp: vedio/CMakeFiles/vedio_generate_messages_cpp
-vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h
+vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h
+vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h
+vedio_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_led.h
 vedio_generate_messages_cpp: vedio/CMakeFiles/vedio_generate_messages_cpp.dir/build.make
 .PHONY : vedio_generate_messages_cpp
 

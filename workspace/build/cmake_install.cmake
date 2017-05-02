@@ -118,6 +118,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/gtest/cmake_install.cmake")
   INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/dji_sdk_lib/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/gpio/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/Guidance-SDK-ROS-master/cmake_install.cmake")
   INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/dji_sdk/cmake_install.cmake")
   INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo/cmake_install.cmake")
   INCLUDE("/home/ubuntu/m100-ros-test/workspace/build/uart_serve/cmake_install.cmake")

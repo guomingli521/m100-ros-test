@@ -48,16 +48,24 @@ CMAKE_BINARY_DIR = /home/ubuntu/m100-ros-test/workspace/build
 # Include the progress variables for this target.
 include dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp.dir/progress.make
 
-dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/uart.lisp
+dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_move.lisp
+dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_vision.lisp
 
-/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/uart.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
-/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/uart.lisp: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_move.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_move.lisp: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from dji_sdk_demo/uart.msg"
-	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from dji_sdk_demo/msg_move.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg
+
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_vision.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_vision.lisp: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from dji_sdk_demo/msg_vision.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg
 
 dji_sdk_demo_generate_messages_lisp: dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp
-dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/uart.lisp
+dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_move.lisp
+dji_sdk_demo_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_vision.lisp
 dji_sdk_demo_generate_messages_lisp: dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_lisp.dir/build.make
 .PHONY : dji_sdk_demo_generate_messages_lisp
 

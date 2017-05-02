@@ -153,8 +153,10 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o
  /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk/WaypointNavigationFeedback.h
  /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk/WaypointNavigationGoal.h
  /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk/WaypointNavigationResult.h
- /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h
- /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/xy.h
+ /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h
+ /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h
+ /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_bomb.h
+ /home/ubuntu/m100-ros-test/workspace/devel/include/vedio/msg_xy.h
  /home/ubuntu/m100-ros-test/workspace/src/dji_sdk/include/dji_sdk/DJI_HardDriver_Manifold.h
  /home/ubuntu/m100-ros-test/workspace/src/dji_sdk/include/dji_sdk/DJI_LIB_ROS_Adapter.h
  /home/ubuntu/m100-ros-test/workspace/src/dji_sdk/include/dji_sdk/dji_drone.h
@@ -197,13 +199,17 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o
  /opt/ros/indigo/include/actionlib_msgs/GoalID.h
  /opt/ros/indigo/include/actionlib_msgs/GoalStatus.h
  /opt/ros/indigo/include/actionlib_msgs/GoalStatusArray.h
+ /opt/ros/indigo/include/cv_bridge/cv_bridge.h
  /opt/ros/indigo/include/geometry_msgs/Point.h
  /opt/ros/indigo/include/geometry_msgs/Pose.h
  /opt/ros/indigo/include/geometry_msgs/PoseWithCovariance.h
  /opt/ros/indigo/include/geometry_msgs/Quaternion.h
+ /opt/ros/indigo/include/geometry_msgs/Transform.h
+ /opt/ros/indigo/include/geometry_msgs/TransformStamped.h
  /opt/ros/indigo/include/geometry_msgs/Twist.h
  /opt/ros/indigo/include/geometry_msgs/TwistWithCovariance.h
  /opt/ros/indigo/include/geometry_msgs/Vector3.h
+ /opt/ros/indigo/include/geometry_msgs/Vector3Stamped.h
  /opt/ros/indigo/include/nav_msgs/Odometry.h
  /opt/ros/indigo/include/ros/advertise_options.h
  /opt/ros/indigo/include/ros/advertise_service_options.h
@@ -261,6 +267,10 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o
  /opt/ros/indigo/include/ros/wall_timer.h
  /opt/ros/indigo/include/ros/wall_timer_options.h
  /opt/ros/indigo/include/rosconsole/macros_generated.h
+ /opt/ros/indigo/include/sensor_msgs/CompressedImage.h
+ /opt/ros/indigo/include/sensor_msgs/Image.h
+ /opt/ros/indigo/include/sensor_msgs/LaserScan.h
+ /opt/ros/indigo/include/sensor_msgs/image_encodings.h
  /opt/ros/indigo/include/std_msgs/Header.h
  /opt/ros/indigo/include/std_msgs/String.h
  /opt/ros/indigo/include/std_msgs/UInt8.h

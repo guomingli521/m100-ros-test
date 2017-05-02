@@ -11,8 +11,12 @@ ros/ros.h
 /home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/ros/ros.h
 std_msgs/String.h
 /home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/std_msgs/String.h
-dji_sdk_demo/uart.h
-/home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/dji_sdk_demo/uart.h
+vedio/msg_led.h
+/home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/vedio/msg_led.h
+vedio/msg_bomb.h
+/home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/vedio/msg_bomb.h
+dji_sdk_demo/msg_move.h
+/home/ubuntu/m100-ros-test/workspace/src/uart_serve/src/dji_sdk_demo/msg_move.h
 sys/types.h
 -
 sys/stat.h

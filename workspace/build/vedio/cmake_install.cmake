@@ -33,7 +33,11 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vedio/msg" TYPE FILE FILES "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vedio/msg" TYPE FILE FILES
+    "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg"
+    "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg"
+    "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

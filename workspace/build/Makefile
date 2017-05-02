@@ -270,6 +270,357 @@ dji_sdk_lib/fast:
 .PHONY : dji_sdk_lib/fast
 
 #=============================================================================
+# Target rules for targets named _gpio_generate_messages_check_deps_msg_gpio
+
+# Build rule for target.
+_gpio_generate_messages_check_deps_msg_gpio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _gpio_generate_messages_check_deps_msg_gpio
+.PHONY : _gpio_generate_messages_check_deps_msg_gpio
+
+# fast build rule for target.
+_gpio_generate_messages_check_deps_msg_gpio/fast:
+	$(MAKE) -f gpio/CMakeFiles/_gpio_generate_messages_check_deps_msg_gpio.dir/build.make gpio/CMakeFiles/_gpio_generate_messages_check_deps_msg_gpio.dir/build
+.PHONY : _gpio_generate_messages_check_deps_msg_gpio/fast
+
+#=============================================================================
+# Target rules for targets named gpio_gencpp
+
+# Build rule for target.
+gpio_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_gencpp
+.PHONY : gpio_gencpp
+
+# fast build rule for target.
+gpio_gencpp/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_gencpp.dir/build.make gpio/CMakeFiles/gpio_gencpp.dir/build
+.PHONY : gpio_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named gpio_generate_messages
+
+# Build rule for target.
+gpio_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_generate_messages
+.PHONY : gpio_generate_messages
+
+# fast build rule for target.
+gpio_generate_messages/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_generate_messages.dir/build.make gpio/CMakeFiles/gpio_generate_messages.dir/build
+.PHONY : gpio_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named gpio_generate_messages_cpp
+
+# Build rule for target.
+gpio_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_generate_messages_cpp
+.PHONY : gpio_generate_messages_cpp
+
+# fast build rule for target.
+gpio_generate_messages_cpp/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_generate_messages_cpp.dir/build.make gpio/CMakeFiles/gpio_generate_messages_cpp.dir/build
+.PHONY : gpio_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named gpio_generate_messages_lisp
+
+# Build rule for target.
+gpio_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_generate_messages_lisp
+.PHONY : gpio_generate_messages_lisp
+
+# fast build rule for target.
+gpio_generate_messages_lisp/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_generate_messages_lisp.dir/build.make gpio/CMakeFiles/gpio_generate_messages_lisp.dir/build
+.PHONY : gpio_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named gpio_generate_messages_py
+
+# Build rule for target.
+gpio_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_generate_messages_py
+.PHONY : gpio_generate_messages_py
+
+# fast build rule for target.
+gpio_generate_messages_py/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_generate_messages_py.dir/build.make gpio/CMakeFiles/gpio_generate_messages_py.dir/build
+.PHONY : gpio_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named gpio_genlisp
+
+# Build rule for target.
+gpio_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_genlisp
+.PHONY : gpio_genlisp
+
+# fast build rule for target.
+gpio_genlisp/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_genlisp.dir/build.make gpio/CMakeFiles/gpio_genlisp.dir/build
+.PHONY : gpio_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named gpio_genpy
+
+# Build rule for target.
+gpio_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_genpy
+.PHONY : gpio_genpy
+
+# fast build rule for target.
+gpio_genpy/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_genpy.dir/build.make gpio/CMakeFiles/gpio_genpy.dir/build
+.PHONY : gpio_genpy/fast
+
+#=============================================================================
+# Target rules for targets named gpio_node
+
+# Build rule for target.
+gpio_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio_node
+.PHONY : gpio_node
+
+# fast build rule for target.
+gpio_node/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio_node.dir/build.make gpio/CMakeFiles/gpio_node.dir/build
+.PHONY : gpio_node/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f gpio/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make gpio/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f gpio/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make gpio/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f gpio/CMakeFiles/roscpp_generate_messages_py.dir/build.make gpio/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f gpio/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make gpio/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f gpio/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make gpio/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f gpio/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make gpio/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f gpio/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make gpio/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f gpio/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make gpio/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f gpio/CMakeFiles/std_msgs_generate_messages_py.dir/build.make gpio/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named guidanceNode
+
+# Build rule for target.
+guidanceNode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guidanceNode
+.PHONY : guidanceNode
+
+# fast build rule for target.
+guidanceNode/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/guidanceNode.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/guidanceNode.dir/build
+.PHONY : guidanceNode/fast
+
+#=============================================================================
+# Target rules for targets named guidanceNodeCalibration
+
+# Build rule for target.
+guidanceNodeCalibration: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guidanceNodeCalibration
+.PHONY : guidanceNodeCalibration
+
+# fast build rule for target.
+guidanceNodeCalibration/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/guidanceNodeCalibration.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/guidanceNodeCalibration.dir/build
+.PHONY : guidanceNodeCalibration/fast
+
+#=============================================================================
+# Target rules for targets named guidanceNodeTest
+
+# Build rule for target.
+guidanceNodeTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guidanceNodeTest
+.PHONY : guidanceNodeTest
+
+# fast build rule for target.
+guidanceNodeTest/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/guidanceNodeTest.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/guidanceNodeTest.dir/build
+.PHONY : guidanceNodeTest/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS-master/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named _dji_sdk_generate_messages_check_deps_A3GPS
 
 # Build rule for target.
@@ -1609,45 +1960,6 @@ dji_sdk_node/fast:
 .PHONY : dji_sdk_node/fast
 
 #=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
-
-# Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_py
-
-# Build rule for target.
-geometry_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named nav_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1687,134 +1999,30 @@ nav_msgs_generate_messages_py/fast:
 .PHONY : nav_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
+# Target rules for targets named _dji_sdk_demo_generate_messages_check_deps_msg_move
 
 # Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
+_dji_sdk_demo_generate_messages_check_deps_msg_move: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dji_sdk_demo_generate_messages_check_deps_msg_move
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_move
 
 # fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
+_dji_sdk_demo_generate_messages_check_deps_msg_move/fast:
+	$(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/build
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_move/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_lisp
+# Target rules for targets named _dji_sdk_demo_generate_messages_check_deps_msg_vision
 
 # Build rule for target.
-roscpp_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
-.PHONY : roscpp_generate_messages_lisp
+_dji_sdk_demo_generate_messages_check_deps_msg_vision: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dji_sdk_demo_generate_messages_check_deps_msg_vision
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_vision
 
 # fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
-
-# Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_py
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named _dji_sdk_demo_generate_messages_check_deps_uart
-
-# Build rule for target.
-_dji_sdk_demo_generate_messages_check_deps_uart: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _dji_sdk_demo_generate_messages_check_deps_uart
-.PHONY : _dji_sdk_demo_generate_messages_check_deps_uart
-
-# fast build rule for target.
-_dji_sdk_demo_generate_messages_check_deps_uart/fast:
-	$(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/build
-.PHONY : _dji_sdk_demo_generate_messages_check_deps_uart/fast
+_dji_sdk_demo_generate_messages_check_deps_msg_vision/fast:
+	$(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/build
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_vision/fast
 
 #=============================================================================
 # Target rules for targets named dji_sdk_client
@@ -1947,17 +2155,43 @@ uart_serve_node/fast:
 .PHONY : uart_serve_node/fast
 
 #=============================================================================
-# Target rules for targets named _vedio_generate_messages_check_deps_xy
+# Target rules for targets named _vedio_generate_messages_check_deps_msg_bomb
 
 # Build rule for target.
-_vedio_generate_messages_check_deps_xy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _vedio_generate_messages_check_deps_xy
-.PHONY : _vedio_generate_messages_check_deps_xy
+_vedio_generate_messages_check_deps_msg_bomb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _vedio_generate_messages_check_deps_msg_bomb
+.PHONY : _vedio_generate_messages_check_deps_msg_bomb
 
 # fast build rule for target.
-_vedio_generate_messages_check_deps_xy/fast:
-	$(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/build
-.PHONY : _vedio_generate_messages_check_deps_xy/fast
+_vedio_generate_messages_check_deps_msg_bomb/fast:
+	$(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_bomb/fast
+
+#=============================================================================
+# Target rules for targets named _vedio_generate_messages_check_deps_msg_led
+
+# Build rule for target.
+_vedio_generate_messages_check_deps_msg_led: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _vedio_generate_messages_check_deps_msg_led
+.PHONY : _vedio_generate_messages_check_deps_msg_led
+
+# fast build rule for target.
+_vedio_generate_messages_check_deps_msg_led/fast:
+	$(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_led/fast
+
+#=============================================================================
+# Target rules for targets named _vedio_generate_messages_check_deps_msg_xy
+
+# Build rule for target.
+_vedio_generate_messages_check_deps_msg_xy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _vedio_generate_messages_check_deps_msg_xy
+.PHONY : _vedio_generate_messages_check_deps_msg_xy
+
+# fast build rule for target.
+_vedio_generate_messages_check_deps_msg_xy/fast:
+	$(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_xy/fast
 
 #=============================================================================
 # Target rules for targets named vedio_gencpp
@@ -2085,6 +2319,33 @@ help:
 	@echo "... gtest_main"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... dji_sdk_lib"
+	@echo "... _gpio_generate_messages_check_deps_msg_gpio"
+	@echo "... gpio_gencpp"
+	@echo "... gpio_generate_messages"
+	@echo "... gpio_generate_messages_cpp"
+	@echo "... gpio_generate_messages_lisp"
+	@echo "... gpio_generate_messages_py"
+	@echo "... gpio_genlisp"
+	@echo "... gpio_genpy"
+	@echo "... gpio_node"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... guidanceNode"
+	@echo "... guidanceNodeCalibration"
+	@echo "... guidanceNodeTest"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... _dji_sdk_generate_messages_check_deps_A3GPS"
 	@echo "... _dji_sdk_generate_messages_check_deps_A3RTK"
 	@echo "... _dji_sdk_generate_messages_check_deps_Acceleration"
@@ -2188,22 +2449,11 @@ help:
 	@echo "... dji_sdk_genlisp"
 	@echo "... dji_sdk_genpy"
 	@echo "... dji_sdk_node"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... _dji_sdk_demo_generate_messages_check_deps_uart"
+	@echo "... _dji_sdk_demo_generate_messages_check_deps_msg_move"
+	@echo "... _dji_sdk_demo_generate_messages_check_deps_msg_vision"
 	@echo "... dji_sdk_client"
 	@echo "... dji_sdk_demo_gencpp"
 	@echo "... dji_sdk_demo_generate_messages"
@@ -2214,7 +2464,9 @@ help:
 	@echo "... dji_sdk_demo_genpy"
 	@echo "... uart_serve_generate_messages"
 	@echo "... uart_serve_node"
-	@echo "... _vedio_generate_messages_check_deps_xy"
+	@echo "... _vedio_generate_messages_check_deps_msg_bomb"
+	@echo "... _vedio_generate_messages_check_deps_msg_led"
+	@echo "... _vedio_generate_messages_check_deps_msg_xy"
 	@echo "... vedio_gencpp"
 	@echo "... vedio_generate_messages"
 	@echo "... vedio_generate_messages_cpp"

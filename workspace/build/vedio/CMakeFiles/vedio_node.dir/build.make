@@ -52,48 +52,118 @@ include vedio/CMakeFiles/vedio_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include vedio/CMakeFiles/vedio_node.dir/flags.make
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o: vedio/CMakeFiles/vedio_node.dir/flags.make
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o: /home/ubuntu/m100-ros-test/workspace/src/vedio/src/blue.cpp
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o: vedio/CMakeFiles/vedio_node.dir/flags.make
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o: /home/ubuntu/m100-ros-test/workspace/src/vedio/src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vedio_node.dir/src/blue.cpp.o -c /home/ubuntu/m100-ros-test/workspace/src/vedio/src/blue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vedio_node.dir/src/main.cpp.o -c /home/ubuntu/m100-ros-test/workspace/src/vedio/src/main.cpp
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vedio_node.dir/src/blue.cpp.i"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/m100-ros-test/workspace/src/vedio/src/blue.cpp > CMakeFiles/vedio_node.dir/src/blue.cpp.i
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vedio_node.dir/src/main.cpp.i"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/m100-ros-test/workspace/src/vedio/src/main.cpp > CMakeFiles/vedio_node.dir/src/main.cpp.i
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vedio_node.dir/src/blue.cpp.s"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/m100-ros-test/workspace/src/vedio/src/blue.cpp -o CMakeFiles/vedio_node.dir/src/blue.cpp.s
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vedio_node.dir/src/main.cpp.s"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/m100-ros-test/workspace/src/vedio/src/main.cpp -o CMakeFiles/vedio_node.dir/src/main.cpp.s
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.requires:
-.PHONY : vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.requires
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.requires:
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.requires
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.provides: vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.requires
-	$(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.provides.build
-.PHONY : vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.provides
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.provides: vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.requires
+	$(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.provides.build
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.provides
 
-vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.provides.build: vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o
+vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.provides.build: vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o: vedio/CMakeFiles/vedio_node.dir/flags.make
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o: /home/ubuntu/m100-ros-test/workspace/src/vedio/src/attack.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vedio_node.dir/src/attack.cpp.o -c /home/ubuntu/m100-ros-test/workspace/src/vedio/src/attack.cpp
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vedio_node.dir/src/attack.cpp.i"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/m100-ros-test/workspace/src/vedio/src/attack.cpp > CMakeFiles/vedio_node.dir/src/attack.cpp.i
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vedio_node.dir/src/attack.cpp.s"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/m100-ros-test/workspace/src/vedio/src/attack.cpp -o CMakeFiles/vedio_node.dir/src/attack.cpp.s
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.requires:
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.requires
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.provides: vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.requires
+	$(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.provides.build
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.provides
+
+vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.provides.build: vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o: vedio/CMakeFiles/vedio_node.dir/flags.make
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o: /home/ubuntu/m100-ros-test/workspace/src/vedio/src/land.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vedio_node.dir/src/land.cpp.o -c /home/ubuntu/m100-ros-test/workspace/src/vedio/src/land.cpp
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vedio_node.dir/src/land.cpp.i"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/m100-ros-test/workspace/src/vedio/src/land.cpp > CMakeFiles/vedio_node.dir/src/land.cpp.i
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vedio_node.dir/src/land.cpp.s"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/m100-ros-test/workspace/src/vedio/src/land.cpp -o CMakeFiles/vedio_node.dir/src/land.cpp.s
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.requires:
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.requires
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.provides: vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.requires
+	$(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.provides.build
+.PHONY : vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.provides
+
+vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.provides.build: vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o
 
 # Object files for target vedio_node
 vedio_node_OBJECTS = \
-"CMakeFiles/vedio_node.dir/src/blue.cpp.o"
+"CMakeFiles/vedio_node.dir/src/main.cpp.o" \
+"CMakeFiles/vedio_node.dir/src/attack.cpp.o" \
+"CMakeFiles/vedio_node.dir/src/land.cpp.o"
 
 # External object files for target vedio_node
 vedio_node_EXTERNAL_OBJECTS =
 
-/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: vedio/CMakeFiles/vedio_node.dir/build.make
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libLog_gcc_v3_0_Basler_pylon_v5_0.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libbxapi.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libbxapi-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libgxapi.so
-/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonbase.so
-/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonc.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libgxapi-5.0.5.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_bcon.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_bcon-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_camemu.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_camemu-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_gige.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_gige-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_gtc.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_gtc-5.0.5.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_usb.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylon_TL_usb-5.0.5.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonbase.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonbase-5.0.5.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonc.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonc-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonutility.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libpylonutility-5.0.5.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libuxapi.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/libuxapi-5.0.5.so
+/home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/pylon5/lib/pylon-libusb-1.0.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /opt/ros/indigo/lib/libroscpp.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
 /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
@@ -151,7 +221,9 @@ vedio_node_EXTERNAL_OBJECTS =
 vedio/CMakeFiles/vedio_node.dir/build: /home/ubuntu/m100-ros-test/workspace/devel/lib/vedio/vedio_node
 .PHONY : vedio/CMakeFiles/vedio_node.dir/build
 
-vedio/CMakeFiles/vedio_node.dir/requires: vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o.requires
+vedio/CMakeFiles/vedio_node.dir/requires: vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o.requires
+vedio/CMakeFiles/vedio_node.dir/requires: vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o.requires
+vedio/CMakeFiles/vedio_node.dir/requires: vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o.requires
 .PHONY : vedio/CMakeFiles/vedio_node.dir/requires
 
 vedio/CMakeFiles/vedio_node.dir/clean:

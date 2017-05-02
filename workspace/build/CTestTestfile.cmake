@@ -6,6 +6,8 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(dji_sdk_lib)
+SUBDIRS(gpio)
+SUBDIRS(Guidance-SDK-ROS-master)
 SUBDIRS(dji_sdk)
 SUBDIRS(dji_sdk_demo)
 SUBDIRS(uart_serve)

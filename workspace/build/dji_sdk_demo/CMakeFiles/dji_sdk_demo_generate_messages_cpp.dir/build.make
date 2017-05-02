@@ -48,17 +48,26 @@ CMAKE_BINARY_DIR = /home/ubuntu/m100-ros-test/workspace/build
 # Include the progress variables for this target.
 include dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp.dir/progress.make
 
-dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h
+dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h
+dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h
 
-/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg
-/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk_demo/uart.msg"
-	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo -e /opt/ros/indigo/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk_demo/msg_move.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h: /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg
+/home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk_demo/msg_vision.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/dji_sdk_demo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg -Idji_sdk_demo:/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg -p dji_sdk_demo -o /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo -e /opt/ros/indigo/share/gencpp/cmake/..
 
 dji_sdk_demo_generate_messages_cpp: dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp
-dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/uart.h
+dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_move.h
+dji_sdk_demo_generate_messages_cpp: /home/ubuntu/m100-ros-test/workspace/devel/include/dji_sdk_demo/msg_vision.h
 dji_sdk_demo_generate_messages_cpp: dji_sdk_demo/CMakeFiles/dji_sdk_demo_generate_messages_cpp.dir/build.make
 .PHONY : dji_sdk_demo_generate_messages_cpp
 

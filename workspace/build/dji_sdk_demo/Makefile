@@ -153,18 +153,32 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/rule
-.PHONY : dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/rule
+dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/rule:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/rule
+.PHONY : dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/rule
 
 # Convenience name for target.
-_dji_sdk_demo_generate_messages_check_deps_uart: dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/rule
-.PHONY : _dji_sdk_demo_generate_messages_check_deps_uart
+_dji_sdk_demo_generate_messages_check_deps_msg_move: dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/rule
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_move
 
 # fast build rule for target.
-_dji_sdk_demo_generate_messages_check_deps_uart/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_uart.dir/build
-.PHONY : _dji_sdk_demo_generate_messages_check_deps_uart/fast
+_dji_sdk_demo_generate_messages_check_deps_msg_move/fast:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_move.dir/build
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_move/fast
+
+# Convenience name for target.
+dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/rule:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/rule
+.PHONY : dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/rule
+
+# Convenience name for target.
+_dji_sdk_demo_generate_messages_check_deps_msg_vision: dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/rule
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_vision
+
+# fast build rule for target.
+_dji_sdk_demo_generate_messages_check_deps_msg_vision/fast:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/build.make dji_sdk_demo/CMakeFiles/_dji_sdk_demo_generate_messages_check_deps_msg_vision.dir/build
+.PHONY : _dji_sdk_demo_generate_messages_check_deps_msg_vision/fast
 
 # Convenience name for target.
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/rule:
@@ -308,7 +322,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _dji_sdk_demo_generate_messages_check_deps_uart"
+	@echo "... _dji_sdk_demo_generate_messages_check_deps_msg_move"
+	@echo "... _dji_sdk_demo_generate_messages_check_deps_msg_vision"
 	@echo "... dji_sdk_client"
 	@echo "... dji_sdk_demo_gencpp"
 	@echo "... dji_sdk_demo_generate_messages"

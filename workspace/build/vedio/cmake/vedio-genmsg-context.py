@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg"
+messages_str = "/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg;/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg;/home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg"
 services_str = ""
 pkg_name = "vedio"
 dependencies_str = ""

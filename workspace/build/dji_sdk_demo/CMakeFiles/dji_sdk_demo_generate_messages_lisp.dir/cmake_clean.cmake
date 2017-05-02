@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/dji_sdk_demo_generate_messages_lisp"
-  "/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/uart.lisp"
+  "/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_move.lisp"
+  "/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/dji_sdk_demo/msg/msg_vision.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

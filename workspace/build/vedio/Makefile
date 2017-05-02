@@ -153,18 +153,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/rule:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/rule
-.PHONY : vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/rule
+vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/rule:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/rule
+.PHONY : vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/rule
 
 # Convenience name for target.
-_vedio_generate_messages_check_deps_xy: vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/rule
-.PHONY : _vedio_generate_messages_check_deps_xy
+_vedio_generate_messages_check_deps_msg_bomb: vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/rule
+.PHONY : _vedio_generate_messages_check_deps_msg_bomb
 
 # fast build rule for target.
-_vedio_generate_messages_check_deps_xy/fast:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_xy.dir/build
-.PHONY : _vedio_generate_messages_check_deps_xy/fast
+_vedio_generate_messages_check_deps_msg_bomb/fast:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_bomb.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_bomb/fast
+
+# Convenience name for target.
+vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/rule:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/rule
+.PHONY : vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/rule
+
+# Convenience name for target.
+_vedio_generate_messages_check_deps_msg_led: vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/rule
+.PHONY : _vedio_generate_messages_check_deps_msg_led
+
+# fast build rule for target.
+_vedio_generate_messages_check_deps_msg_led/fast:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_led.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_led/fast
+
+# Convenience name for target.
+vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/rule:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/rule
+.PHONY : vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/rule
+
+# Convenience name for target.
+_vedio_generate_messages_check_deps_msg_xy: vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/rule
+.PHONY : _vedio_generate_messages_check_deps_msg_xy
+
+# fast build rule for target.
+_vedio_generate_messages_check_deps_msg_xy/fast:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/build.make vedio/CMakeFiles/_vedio_generate_messages_check_deps_msg_xy.dir/build
+.PHONY : _vedio_generate_messages_check_deps_msg_xy/fast
 
 # Convenience name for target.
 vedio/CMakeFiles/vedio_gencpp.dir/rule:
@@ -278,29 +306,77 @@ vedio_node/fast:
 	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/build
 .PHONY : vedio_node/fast
 
-src/blue.o: src/blue.cpp.o
-.PHONY : src/blue.o
+src/attack.o: src/attack.cpp.o
+.PHONY : src/attack.o
 
 # target to build an object file
-src/blue.cpp.o:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.o
-.PHONY : src/blue.cpp.o
+src/attack.cpp.o:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.o
+.PHONY : src/attack.cpp.o
 
-src/blue.i: src/blue.cpp.i
-.PHONY : src/blue.i
+src/attack.i: src/attack.cpp.i
+.PHONY : src/attack.i
 
 # target to preprocess a source file
-src/blue.cpp.i:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.i
-.PHONY : src/blue.cpp.i
+src/attack.cpp.i:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.i
+.PHONY : src/attack.cpp.i
 
-src/blue.s: src/blue.cpp.s
-.PHONY : src/blue.s
+src/attack.s: src/attack.cpp.s
+.PHONY : src/attack.s
 
 # target to generate assembly for a file
-src/blue.cpp.s:
-	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/blue.cpp.s
-.PHONY : src/blue.cpp.s
+src/attack.cpp.s:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/attack.cpp.s
+.PHONY : src/attack.cpp.s
+
+src/land.o: src/land.cpp.o
+.PHONY : src/land.o
+
+# target to build an object file
+src/land.cpp.o:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/land.cpp.o
+.PHONY : src/land.cpp.o
+
+src/land.i: src/land.cpp.i
+.PHONY : src/land.i
+
+# target to preprocess a source file
+src/land.cpp.i:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/land.cpp.i
+.PHONY : src/land.cpp.i
+
+src/land.s: src/land.cpp.s
+.PHONY : src/land.s
+
+# target to generate assembly for a file
+src/land.cpp.s:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/land.cpp.s
+.PHONY : src/land.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	cd /home/ubuntu/m100-ros-test/workspace/build && $(MAKE) -f vedio/CMakeFiles/vedio_node.dir/build.make vedio/CMakeFiles/vedio_node.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -308,7 +384,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _vedio_generate_messages_check_deps_xy"
+	@echo "... _vedio_generate_messages_check_deps_msg_bomb"
+	@echo "... _vedio_generate_messages_check_deps_msg_led"
+	@echo "... _vedio_generate_messages_check_deps_msg_xy"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -324,9 +402,15 @@ help:
 	@echo "... vedio_genlisp"
 	@echo "... vedio_genpy"
 	@echo "... vedio_node"
-	@echo "... src/blue.o"
-	@echo "... src/blue.i"
-	@echo "... src/blue.s"
+	@echo "... src/attack.o"
+	@echo "... src/attack.i"
+	@echo "... src/attack.s"
+	@echo "... src/land.o"
+	@echo "... src/land.i"
+	@echo "... src/land.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

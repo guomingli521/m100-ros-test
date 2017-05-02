@@ -1,7 +1,11 @@
 (cl:defpackage vedio-msg
   (:use )
   (:export
-   "<XY>"
-   "XY"
+   "<MSG_XY>"
+   "MSG_XY"
+   "<MSG_LED>"
+   "MSG_LED"
+   "<MSG_BOMB>"
+   "MSG_BOMB"
   ))
 

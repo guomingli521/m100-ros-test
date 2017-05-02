@@ -33,7 +33,10 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dji_sdk_demo/msg" TYPE FILE FILES "/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/uart.msg")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dji_sdk_demo/msg" TYPE FILE FILES
+    "/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_vision.msg"
+    "/home/ubuntu/m100-ros-test/workspace/src/dji_sdk_demo/msg/msg_move.msg"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

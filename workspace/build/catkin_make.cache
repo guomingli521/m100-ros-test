@@ -1,2 +1,2 @@
-dji_sdk:dji_sdk_demo:dji_sdk_lib:uart_serve:vedio
+Guidance-SDK-ROS-master:dji_sdk:dji_sdk_demo:dji_sdk_lib:gpio:uart_serve:vedio
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/m100-ros-test/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/m100-ros-test/workspace/install -G Unix Makefiles

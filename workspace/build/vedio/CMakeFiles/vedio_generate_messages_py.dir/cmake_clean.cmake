@@ -1,6 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/vedio_generate_messages_py"
-  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_xy.py"
+  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_xy.py"
+  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_bomb.py"
+  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/_msg_led.py"
   "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/vedio/msg/__init__.py"
 )
 

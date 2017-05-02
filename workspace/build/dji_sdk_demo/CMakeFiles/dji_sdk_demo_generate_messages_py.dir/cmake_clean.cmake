@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/dji_sdk_demo_generate_messages_py"
-  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/dji_sdk_demo/msg/_uart.py"
+  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/dji_sdk_demo/msg/_msg_move.py"
+  "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/dji_sdk_demo/msg/_msg_vision.py"
   "/home/ubuntu/m100-ros-test/workspace/devel/lib/python2.7/dist-packages/dji_sdk_demo/msg/__init__.py"
 )
 

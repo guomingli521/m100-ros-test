@@ -48,16 +48,32 @@ CMAKE_BINARY_DIR = /home/ubuntu/m100-ros-test/workspace/build
 # Include the progress variables for this target.
 include vedio/CMakeFiles/vedio_generate_messages_lisp.dir/progress.make
 
-vedio/CMakeFiles/vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/xy.lisp
+vedio/CMakeFiles/vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_xy.lisp
+vedio/CMakeFiles/vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_bomb.lisp
+vedio/CMakeFiles/vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_led.lisp
 
-/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/xy.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
-/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/xy.lisp: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_xy.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_xy.lisp: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from vedio/xy.msg"
-	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from vedio/msg_xy.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_xy.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg
+
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_bomb.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_bomb.lisp: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from vedio/msg_bomb.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_bomb.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg
+
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_led.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_led.lisp: /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/m100-ros-test/workspace/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from vedio/msg_led.msg"
+	cd /home/ubuntu/m100-ros-test/workspace/build/vedio && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/m100-ros-test/workspace/src/vedio/msg/msg_led.msg -Ivedio:/home/ubuntu/m100-ros-test/workspace/src/vedio/msg -p vedio -o /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg
 
 vedio_generate_messages_lisp: vedio/CMakeFiles/vedio_generate_messages_lisp
-vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/xy.lisp
+vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_xy.lisp
+vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_bomb.lisp
+vedio_generate_messages_lisp: /home/ubuntu/m100-ros-test/workspace/devel/share/common-lisp/ros/vedio/msg/msg_led.lisp
 vedio_generate_messages_lisp: vedio/CMakeFiles/vedio_generate_messages_lisp.dir/build.make
 .PHONY : vedio_generate_messages_lisp
 
