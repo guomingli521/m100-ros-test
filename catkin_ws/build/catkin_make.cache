@@ -1,0 +1,2 @@
+Guidance-SDK-ROS-master:dji_sdk:dji_sdk_demo:dji_sdk_lib:gpio:uart_serve:vedio
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

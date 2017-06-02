@@ -1,0 +1,192 @@
+#include"function.h"
+//#include"main.h"
+
+OUTPUT mission;
+vediohit vedio_hit;
+
+
+int permission = 0;
+int flag=0;
+CGrabResultPtr pylonimage;
+Mat frame;
+GpuMat SMALL;
+ros::Publisher xy_publisher;
+ros::Publisher led_publisher;
+ros::Publisher bomb_publisher;
+
+dji_sdk_demo::msg_vision receive_vision;
+gpio::msg_gpio	receive_gpio;
+
+int last_flag=3;
+
+float T=0.05;
+
+
+void visioncallback(dji_sdk_demo::msg_vision send_vision)
+{
+  receive_vision=send_vision;   
+}
+
+void gpiocallback(gpio::msg_gpio send_gpio)
+{
+  receive_gpio=send_gpio;   
+}
+
+
+class CImageProcess :public CImageEventHandler
+{
+public:
+	void OnImageGrabbed(CInstantCamera& camera, const CGrabResultPtr& ptrGrabResult)
+	{
+		if (permission == 0)
+		{
+			//const int64 start = getTickCount();			
+			pylonimage = ptrGrabResult;			
+			permission = 1;
+		}
+	}
+protected:
+private:
+}; 
+
+
+
+
+int main(int argc,char **argv)
+{
+	randn(state, Scalar::all(0), Scalar::all(0.1)); 
+        KF.transitionMatrix = *(Mat_<float>(6, 6) <<                  //转移矩阵
+        1,0,T,0,0.5*T*T,0,   
+        0,1,0,T,0,0.5*T*T,   
+        0,0,1,0,T,0,   
+        0,0,0,1,0,T,
+	0,0,0,0,1,0,
+	0,0,0,0,0,1);
+        setIdentity(KF.measurementMatrix);   			     //测量矩阵	
+    	setIdentity(KF.processNoiseCov, Scalar::all(1e-5));          //过程噪声
+    	setIdentity(KF.measurementNoiseCov, Scalar::all(1e-1));      //测量噪声           
+    	setIdentity(KF.errorCovPost, Scalar::all(1));    	     //最小均方差
+	randn(KF.statePost, Scalar::all(0), Scalar::all(0.1)); 	     //系统初始状态
+
+
+
+
+	receive_vision.flag=3;
+
+	ros::init(argc,argv,"vedio_node");
+	ros::NodeHandle n;  
+	xy_publisher = n.advertise<vedio::msg_xy>("vedio/msg_xy", 1000);
+	led_publisher = n.advertise<vedio::msg_led>("vedio/msg_led", 1000);
+	bomb_publisher = n.advertise<vedio::msg_bomb>("vedio/msg_bomb", 1000);	
+
+	ros::Subscriber vision_subscriber = n.subscribe<dji_sdk_demo::msg_vision>("dji_sdk_demo/msg_vision",1,visioncallback);
+	ros::Subscriber gpio_subscriber = n.subscribe<gpio::msg_gpio>("gpio/msg_gpio",1,gpiocallback);
+
+	ros::Rate loop_rate(100);
+
+    	CPylonImage image;
+    	CImageFormatConverter fc;
+	fc.OutputPixelFormat = PixelType_BGR8packed;
+	
+	
+	PylonInitialize();                               //pylon打开摄像头例程
+    	CDeviceInfo info;
+	info.SetDeviceClass(Camera_t::DeviceClass());
+	Camera_t camera(CTlFactory::GetInstance().CreateFirstDevice(info));	
+	camera.RegisterImageEventHandler(new CImageProcess, RegistrationMode_Append, Cleanup_Delete);
+	camera.Open();
+    	while(ros::ok())
+	{
+		const int64 start = getTickCount();
+
+		vedio::msg_xy xy;
+		vedio::msg_led led;
+		vedio::msg_bomb bomb;
+		
+		if(receive_gpio.gpio==1)
+		{
+		 vedio_hit.hith=125;
+		 vedio_hit.hitl=100;
+		
+		}
+		if(receive_gpio.gpio==0)
+		{
+		 vedio_hit.hith=25;
+		 vedio_hit.hitl=0;
+		;
+		}
+
+
+
+		if(last_flag!=0&&receive_vision.flag==0)
+		{
+		 flag=0;
+	         camera.StopGrabbing();
+	         camera.UserSetSelector.SetValue(UserSetSelector_UserSet3);
+	         camera.UserSetLoad.Execute();
+                 //camera.StartGrabbing(GrabStrategy_OneByOne, GrabLoop_ProvidedByInstantCamera);
+		 camera.StartGrabbing(GrabStrategy_OneByOne, GrabLoop_ProvidedByInstantCamera);
+		}
+		
+		if(last_flag!=1&&receive_vision.flag==1)
+		{
+		 flag=1;
+	         camera.StopGrabbing();
+	         camera.UserSetSelector.SetValue(UserSetSelector_UserSet1);
+	         camera.UserSetLoad.Execute();
+                 camera.StartGrabbing(GrabStrategy_OneByOne, GrabLoop_ProvidedByInstantCamera);	
+		}
+		
+
+		if (permission == 1)
+		{
+			if (pylonimage->GrabSucceeded())
+			{
+			 fc.Convert(image, pylonimage);
+			 frame= Mat(pylonimage->GetHeight(), pylonimage->GetWidth(), CV_8UC3, (uint8_t*)image.GetBuffer());
+			 GpuMat FRAME(frame); 
+			 gpu::resize(FRAME, SMALL,Size(), 0.5, 0.5); 			 
+			}
+			if(flag==0)
+			{		
+			mission=attack_vedio(SMALL,vedio_hit);
+
+			xy.x=mission.xy.x;
+			xy.y=mission.xy.y;			
+			led.right=mission.led;
+			led.left=0;
+			bomb.hit=mission.hit;
+
+			permission = 0;			
+			}
+			if(flag==1)
+			{
+			mission=land_vedio(SMALL);
+
+			
+			xy.x=mission.xy.x;
+			xy.y=mission.xy.y;			
+			led.right=0;
+			led.left=mission.led;
+			bomb.hit=0;
+
+			
+			permission = 0;				
+			}
+			xy_publisher.publish(xy);
+			led_publisher.publish(led); 
+			//bomb_publisher.publish(bomb);
+			
+			const double timeSec = (getTickCount() - start) / getTickFrequency();
+			//cout << "Time : " << timeSec * 1000 << " ms" << endl;
+		}
+	last_flag=receive_vision.flag;
+	ros::spinOnce();
+  	loop_rate.sleep();	
+	
+	}   
+
+	camera.StopGrabbing();
+    	camera.DestroyDevice();
+    	PylonTerminate();
+}

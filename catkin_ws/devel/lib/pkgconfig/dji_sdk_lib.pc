@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: dji_sdk_lib
+Description: Description of dji_sdk_lib
+Version: 0.1.9
+Cflags: -I/home/ubuntu/catkin_ws/src/dji_sdk_lib/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib -ldji_sdk_lib
+Requires: 

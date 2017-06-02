@@ -1,0 +1,28 @@
+#include"main.h"
+#include"attack.h"
+
+
+
+
+
+
+
+
+int main(int argc,char **argv)
+{
+	ros::init(argc,argv,"vedio_node");
+	ros::NodeHandle n;  
+	xy_publisher = n.advertise<vedio::xy>("vedio/xy", 1000);
+
+	
+    	PylonInitialize();                               //pylon打开摄像头例程
+    	CInstantCamera camera(CTlFactory::GetInstance().CreateFirstDevice());
+    	camera.RegisterImageEventHandler(new CImageProcess , RegistrationMode_Append, Cleanup_Delete);
+    	camera.Open();
+    	camera.StartGrabbing(GrabStrategy_OneByOne, GrabLoop_ProvidedByInstantCamera);
+    	while(ros::ok());
+    	camera.StopGrabbing();
+    	camera.DestroyDevice();
+    	PylonTerminate();
+
+}
